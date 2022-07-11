@@ -8,21 +8,56 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">YES STUDENT GAMERz</a>
+        <a href="#" class="logo">SID STZ GAMERZ</a>
         <ul class="nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Games on top</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Games</a></li>
             <li><a href="#">Esport Tournment</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         <div class="action">
             <div class="searchBx">
-                <a href="#"><box-icon name='search'></box-icon></a>
+                <a href="#"><i class='bx bx-search'></i></a>
                 <input type="text" placeholder="Search Games Here">
             </div>
         </div>
         <div class="toggleMenu"></div>
     </header>
+
+    <!-- Home Banner -->
+    <div class="banner">
+        <div class="bg">
+            <div class="content">
+                <h2>A New Home for 
+                    <br>Game Lovers</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorum tempora voluptates.</p>
+                    <a href="#" class="btn">Join Now</a>
+            </div>
+            <img src="assasin.png">
+        </div>
+    </div>
+
+    <!--About-->
+    <div class="about">
+        <div class="contentBx">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel tenetur eligendi quidem aspernatur reprehenderit, praesentium aut sapiente veniam aliquid nisi nobis quas? Alias quod tempora possimus temporibus, eius animi suscipit.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam non incidunt ratione exercitationem fugiat et nihil voluptatem, perspiciatis officia, suscipit saepe itaque earum dolores minima, laboriosam officiis beatae consectetur facere?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio odit, mollitia maiores nisi laudantium perspiciatis, optio, asperiores assumenda voluptates enim voluptate nobis suscipit laborum neque obcaecati nostrum aut tenetur.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="IMG_0884.png" alt="">
+    </div>
+
+
+    <script>
+        /* Sticky Navbar */
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
